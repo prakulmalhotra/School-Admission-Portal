@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Sign Up</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/css/signup.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href="login.css">
+    <link rel='stylesheet' href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to PNP School Admission Portal</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about_us.html">ABOUT US</a></li>
+            <li><a href="contact-us.html">CONTACT US</a></li>
+            <li><a href="academics.html">ACADEMICS</a></li>
+            <a href="signup.html" class="cta-button">SIGN UP</a>
+            <a href="login.html" class="cta-button">LOGIN</a>
+        </ul>
+    </nav>
+</header>
+  <section class="contact section" id="contact">
+    <div class="services__container container grid">
+      <div class="services__content">
+        <h2 class="section-title">Sign Up</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="signup.php" class="contact__form" method="POST">
+            <h6>Name</h6>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Username"
+                aria-describedby="basic-addon1" required>
+            </div>
+            <h6>Email</h6>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Username"
+                aria-describedby="basic-addon1" required>
+            </div>
+            <h6>Username</h6>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <input type="text" name="username" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1" required>
+            </div>
+            <h6>Password</h6>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <input type="password" name="password" class="form-control" placeholder="Password" aria-label="Username"
+                aria-describedby="basic-addon1" required>
+            </div>
+            <a href="login.html" >Login instead?</a>
+            <button type="submit" class="btn btn-outline-primary" name="Signup">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 PNP School. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>

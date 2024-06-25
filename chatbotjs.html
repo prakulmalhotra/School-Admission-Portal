@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="chatbotjs.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to PNP School Admission Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+                <li><a href="academics.html">ACADEMICS</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="glass">
+<h1>Ask Your Question??</h1>
+<h2>Yeah,ask Some Question</h2>
+<div class="input">
+<input
+type="text"
+id="userBox"
+onkeydown="if(event.keyCode == 13){ talk()}"
+placeholder="Type your Question"
+/>
+</div>
+<p id="chatLog">Answer Appering Hear</p>
+</div>
+<script src="chatbotjs.js"></script>
+<footer>
+    <p>&copy; 2023 PNP School. All rights reserved.</p>
+</footer>
+</body>
+</html>
