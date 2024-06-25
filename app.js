@@ -17,7 +17,7 @@ async function sendMessageToChatbot() {
     appendMessage(userMessage, 'user');
 
     // Send the user message to the GPT-3.5 model using your API key
-    const apiKey = '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'; // Replace with your OpenAI API key
+    const apiKey = ''; // Replace with your OpenAI API key
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
